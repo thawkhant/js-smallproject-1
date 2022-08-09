@@ -1,0 +1,21 @@
+body{
+	color: red;
+	background: gold;
+}
+
+.no-btn{
+	display: none;
+}
+
+.pagebreak{
+	page-break-after: always;
+}
+
+header{
+	position: static;
+}
+
+@page{                    /*cuzz we just link for media bro*/
+	size: legal;
+	margin: 0;
+}
