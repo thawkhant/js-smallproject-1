@@ -1,6 +1,7 @@
-body{
+.content{
 	color: red;
-	background: gold;
+	background:linear-gradient(red,yellow);
+	-webkit-print-color-adjust: exact;
 }
 
 .no-btn{
@@ -13,6 +14,8 @@ body{
 
 header{
 	position: static;
+
+	-webkit-print-color-adjust: exact;    /*color ko print htoke yar mar pya say chin lot*/
 }
 
 @page{                    /*cuzz we just link for media bro*/
